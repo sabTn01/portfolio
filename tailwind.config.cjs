@@ -1,0 +1,21 @@
+/** @type {import('tailwindcss').Config} */
+const withMT = require("@material-tailwind/react/utils/withMT");
+
+module.exports = withMT({
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  theme: {
+    screens: {
+      lg2: { max: "1623px" },
+      lg: { max: "1023px" },
+      tl: { max: "723px" },
+    },
+    extend: {
+      backgroundImage: {
+        back: "url('./src/assets/images/bg.jpg')",
+        skills: "url('./src/assets/images/banner-bg.png')",
+        contact: "url('./src/assets/images/banner-bg.png')",
+      },
+    },
+  },
+  plugins: [],
+});
