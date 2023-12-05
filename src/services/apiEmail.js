@@ -1,6 +1,10 @@
 import emailjs from "@emailjs/browser";
 
 export async function sendEmailApi({ name, email, message, phone }) {
+  console.log(name);
+  // console.log(sanitizedName);
+  console.log(email);
+  // console.log(sanitizedEmail);
   const { VITE_EMAILJS_SERVICEID, VITE_EMAILJS_TEMPLATEID, VITE_EMAILJS_PKEY } =
     import.meta.env;
 

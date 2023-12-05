@@ -21,7 +21,12 @@ function Contact() {
     const sanitizedPhone = sanitizeInput(phone);
 
     sendEmail(
-      { sanitizedName, sanitizedEmail, sanitizedMessage, sanitizedPhone },
+      {
+        name: sanitizedName,
+        email: sanitizedEmail,
+        message: sanitizedMessage,
+        phone: sanitizedPhone,
+      },
       {
         onSettled: () => reset(),
       }

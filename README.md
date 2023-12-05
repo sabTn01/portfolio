@@ -1,5 +1,5 @@
 # react-tailwind-portfolio
 
-- <a href="https://tailwindcss.com/docs/installation">Get started with Tailwind CSS</a>
+- <a target="blank" href="https://tailwindcss.com/docs/installation">Get started with Tailwind CSS</a>
 
 - Made with tailwind
