@@ -1,5 +1,5 @@
 # react-tailwind-portfolio
 
-- <a href="https://www.youtube.com/watch?v=hYv6BM2fWd8">Design</a>
+- <a href="https://tailwindcss.com/docs/installation">Get started with Tailwind CSS</a>
 
 - Made with tailwind
