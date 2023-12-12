@@ -33,10 +33,10 @@ const features = [
         subList: [
           "JavaScript",
           "C# / .NET",
+          "Typescript",
           "HTML",
           "CSS",
           "Solidity",
-          "Swift",
           "SQL",
         ],
         chipColor: "deep-purple",

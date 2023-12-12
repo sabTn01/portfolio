@@ -12,7 +12,7 @@ function Projects() {
       title: "Hotel Booking Management Web app",
       description: "Design & Development",
       img: img1,
-      link: "https://the-wild-oasis-ben.netlify.app/",
+      link: "https://booking-manager.netlify.app",
     },
     {
       id: 2,
