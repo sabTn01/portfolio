@@ -1,6 +1,5 @@
-import img1 from "/project-hotel.png";
-import img2 from "/project-img2.png";
-import img3 from "/project-img3.png";
+import hbm from "/project-hotel.png";
+import povo from "/project-povo.png";
 
 import "../styles.css";
 import ProjectCard from "./ProjectCard";
@@ -10,16 +9,16 @@ function Projects() {
     {
       id: 1,
       title: "Hotel Booking Management Web app",
-      description: "Design & Development",
-      img: img1,
+      description: "Business and management",
+      img: hbm,
       link: "https://booking-manager.netlify.app",
     },
     {
       id: 2,
-      title: "Business Startup",
-      description: "Design & Development",
-      img: img2,
-      link: "",
+      title: "Decentralized Votes tool",
+      description: "Management and votes",
+      img: povo,
+      link: "https://povo-app.netlify.app",
     },
   ];
 
